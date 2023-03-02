@@ -6,11 +6,13 @@
 </head>
 <body>
 <script>
-    let i =parseInt(prompt('Nhập nhiệt độ hiện tại:'));
+    let i =+prompt('Nhập nhiệt độ hiện tại:');
     if (i > 100){
         alert("Vui lòng giảm nhiệt độ")
     }else if (i<20) {
         alert("Tăng nhiệt độ")
+    }else if( i >=20 && i <=100){
+        alert("Vui lòng nhập lại nhiệt độ")
     }
 </script>
 </body>
