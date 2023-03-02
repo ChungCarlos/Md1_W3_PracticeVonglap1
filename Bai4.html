@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fibo chia hết cho 5</title>
+</head>
+<body>
+<script>
+  let n;
+  let fi;
+  function Fibo(n) {
+    let a = 0;
+    let b = 1;
+    let i;
+    let fi;
+    document.write(a + "<br>");
+    document.write(b + "<br>");
+    for (i = 3; i <= 20; i++) {
+      fi = a + b;
+      if(fi%5==0){
+          alert(fi);
+      }
+      document.write(fi + "<br>");
+      a = b;
+      b = fi;
+    }
+  }
+  Fibo(fi);
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n;
+    function Fibo(n) {
+        let a = 0;
+        let b = 1;
+        let fi;
+        document.write(a + "<br>");
+        document.write(b + "<br>");
+        for (let i = 3; i <= 20; i++) {
+            fi = a + b;
+            document.write(fi + "<br>");
+            a = b;
+            b = fi;
+        }
+    }
+    Fibo(n);
+</script>
+</body>
+</html>
